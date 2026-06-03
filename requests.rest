@@ -55,3 +55,33 @@ Content-Type: application/json
   "name": "James Bond",
   "number": "007"
 }
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "James Mongo",
+  "number": "123-456789"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/6a1f1b2d8a9341e669c03414
+Content-Type: application/json
+
+{
+  "name": "Anna Test",
+  "number": "999-999"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Al",
+  "number": "123-456789"
+}
